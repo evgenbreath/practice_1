@@ -25,5 +25,13 @@
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
+let personalMovieDB = {
+    conunt: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
 
 
