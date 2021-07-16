@@ -23,6 +23,7 @@
 
 'use strict';
 
-hello
+const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
+
 
 
